@@ -1,0 +1,38 @@
+.base-node {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-family: sans-serif;
+    width: 250px;
+}
+
+.base-node .node-header {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.base-node .node-content {
+    padding: 10px;
+}
+
+.base-node .node-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.base-node .node-content input,
+.base-node .node-content select,
+.base-node .node-content textarea {
+    width: 95%;
+    padding: 5px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} 
