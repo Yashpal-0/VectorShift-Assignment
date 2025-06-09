@@ -52,6 +52,6 @@ export const SubmitButton = () => {
     };
 
     return (
-        <button className="submit-button" onClick={handleSubmit} type="button">Submit</button>
+        <button className="submit-button" onClick={handleSubmit} type="button">Deploy</button>
     );
 }
