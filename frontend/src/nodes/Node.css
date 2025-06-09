@@ -1,38 +1,57 @@
 .base-node {
-    border: 1px solid #ddd;
+    border: 1px solid #30363d;
     border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background-color: #161b22;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     font-family: sans-serif;
     min-width: 250px;
+    color: #c9d1d9;
 }
 
 .base-node .node-header {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #21262d;
     padding: 10px;
+    font-weight: bold;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
-    border-bottom: 1px solid #ddd;
-    font-weight: bold;
+    border-bottom: 1px solid #30363d;
 }
 
 .base-node .node-content {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.base-node .node-content label {
-    display: block;
-    margin-bottom: 5px;
+.base-node label {
+    display: flex;
+    flex-direction: column;
     font-size: 0.9em;
+    color: #8b949e;
 }
 
-.base-node .node-content input,
-.base-node .node-content select,
-.base-node .node-content textarea {
-    width: 95%;
-    padding: 5px;
-    margin-top: 3px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.base-node input,
+.base-node select,
+.base-node textarea {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-size: 1em;
+}
+
+.base-node input:focus,
+.base-node select:focus,
+.base-node textarea:focus {
+    outline: none;
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+}
+
+.react-flow__handle {
+    background: #58a6ff !important;
+    border: 1px solid #161b22 !important;
 } 

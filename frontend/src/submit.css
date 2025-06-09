@@ -1,0 +1,15 @@
+.submit-button {
+  background-color: #238636;
+  color: white;
+  border: 1px solid rgba(240, 246, 252, 0.1);
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #2ea043;
+} 
